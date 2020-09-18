@@ -1,0 +1,83 @@
+.TouchCardContainer {
+	transform-style: preserve-3d;
+	transform: perspective(200px);
+	will-change: transform;
+
+	.TouchCard {
+		transform-origin: 50% 50%;
+	}
+}
+
+.TouchCard {
+	position: relative;
+	width: 350px;
+	height: 350px;
+	font-weight: normal;
+
+	.background {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 4.9px;
+		border: solid 2px $COLOR_DARK_GREY;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.cardContent {
+		position: absolute;
+		width: 100%;
+		padding: 20px 20px 20px 20px;
+
+		.headerContainer {
+			font-size: 14px;
+			display: flex;
+			justify-content: space-between;
+
+			.headline {
+			}
+
+			.number {
+			}
+		}
+
+		.imageContainer {
+			pointer-events: none;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			img {
+			}
+		}
+
+		.descriptionContainer {
+			display: flex;
+			justify-content: space-between;
+
+			.description {
+				font-size: 20px;
+				line-height: 1.3;
+			}
+
+			.arrowRight {
+				line-height: 1.3;
+				font-size: 16px;
+				margin-top: auto;
+			}
+		}
+	}
+
+	.line {
+		position: absolute;
+		width: 0%;
+		height: 11px;
+		top: calc(350px - 13px);
+		background-color: $COLOR_BLUE;
+	}
+}
+
+.TouchCard.back {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 200px;
+	max-width: 200px;
+}

@@ -1,0 +1,326 @@
+<div data-view="RestaurantOrderingView" data-path="order-food" class="view RestaurantOrderingView">
+	<div class="introScreen">
+		<div class="description">
+			<div class="header">Order Food</div>
+			<div class="textContent">
+				<div class="scenario">
+					<div class="smallHeader">SCENARIO</div>
+					<div class="body">
+						In this demo we explore a version of how to order food at a burger restaurant - without touching the screen. This scenario could also apply to other purchasing experiences, and
+						can be build out to have sub-categories of items etc. depending on the restaurants offerings.
+					</div>
+				</div>
+				<div class="howTo">
+					<div class="smallHeader">HOW TO</div>
+					<div class="body">
+						Put your hand over the product you want to buy - spread your fingers to select.<br />Checkout by holding your hand over the checkout button and spread your fingers.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="TouchCardContainer">
+			<div class="TouchCard" data-action="callback" data-path="startDemo">
+				<div class="background">
+					<div class="line"></div>
+				</div>
+				<div class="cardContent">
+					<div class="startDemo">Start Demo</div>
+					<div class="imageContainer">
+						<?xml version="1.0" encoding="UTF-8"?>
+						<svg width="184px" height="159px" viewBox="0 0 184 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Fill 1</title>
+							<g id="Demo:Elevator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="In-Demo-Nav_1-Copy" transform="translate(-243.000000, -66.000000)" fill="#FFFFFF">
+									<polygon
+										id="Fill-1"
+										transform="translate(334.992806, 145.500000) rotate(-90.000000) translate(-334.992806, -145.500000) "
+										points="326.040796 54 326.040796 203.96285 268.421511 145.869087 256 157.788271 334.994097 237 413.985612 157.788271 401.5641 145.869087 343.934486 203.96285 343.934486 54"
+									></polygon>
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="demoScreen">
+		<div class="TouchCardContainer checkoutButton">
+			<div class="TouchCard" data-action="callback" data-path="checkout">
+				<div class="background checkoutButtonBG">
+					<div class="line"></div>
+				</div>
+				<div class="cardContent">
+					<div class="startDemo checkoutText">Checkout $0</div>
+					<div class="imageContainer">
+						<?xml version="1.0" encoding="UTF-8"?>
+						<svg width="184px" height="159px" viewBox="0 0 184 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Fill 1</title>
+							<g id="Demo:Elevator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="In-Demo-Nav_1-Copy" transform="translate(-243.000000, -66.000000)" fill="#FFFFFF">
+									<polygon
+										id="Fill-1"
+										transform="translate(334.992806, 145.500000) rotate(-90.000000) translate(-334.992806, -145.500000) "
+										points="326.040796 54 326.040796 203.96285 268.421511 145.869087 256 157.788271 334.994097 237 413.985612 157.788271 401.5641 145.869087 343.934486 203.96285 343.934486 54"
+									></polygon>
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="experimentContainer cards" data-drag="x">
+			<div class="firstCard TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-15">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● MENU</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/BurgerMenu@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Cheeseburger Menu
+							</div>
+							<div class="arrowRight">$15</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● BURGERS</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Cheeseburger@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Cheeseburger
+							</div>
+							<div class="arrowRight">$4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-5">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● CHICKEN</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/FriedChicken@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Fried Chicken
+							</div>
+							<div class="arrowRight">$5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-3">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● FRIES</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Frenchfires@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								French Fries
+							</div>
+							<div class="arrowRight">$3</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● FRIES</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Curlyfries@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Curly Fries
+							</div>
+							<div class="arrowRight">$4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-1">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● DIP</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/DippingSauce@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Dipping Sauce
+							</div>
+							<div class="arrowRight">$1</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-2">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● ONION</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/OnionRings@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Onion Rings
+							</div>
+							<div class="arrowRight">$2</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-5">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● SALAD</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Salad@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Salad
+							</div>
+							<div class="arrowRight">$5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● SHAKE</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Strawberry@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Strawberry Shake
+							</div>
+							<div class="arrowRight">$4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● SHAKE</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Vanilla@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Vanilla Shake
+							</div>
+							<div class="arrowRight">$4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="buy-4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						<div class="headerContainer">
+							<div class="headline">● SHAKE</div>
+							<div class="number"></div>
+						</div>
+						<div class="imageContainer">
+							<img src="/assets/images/restaurantImages/Choco@2.png" />
+						</div>
+						<div class="descriptionContainer">
+							<div class="description">
+								Chocolate Shake
+							</div>
+							<div class="arrowRight">$4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="endScreen">
+		<div class="headline">Thank you for your order<br />Total cost $<span class="totalCost">24</span></div>
+	</div>
+</div>

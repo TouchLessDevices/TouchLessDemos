@@ -1,0 +1,83 @@
+.TutorialView {
+	height: 100%;
+
+	.instructionText {
+		font-size: 34px;
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		width: 100%;
+
+		.counter {
+			font-size: 14px;
+			font-style: normal;
+			line-height: 2.5;
+			text-align: center;
+			color: #747474;
+		}
+
+		.line1 {
+			color: #ffffff;
+		}
+
+		.line2 {
+			color: #ffffff;
+			line-height: 1.2;
+		}
+	}
+
+	.handUp {
+	}
+
+	.dragIntoView {
+		visibility: hidden;
+	}
+
+	.pinchToStart {
+		visibility: hidden;
+	}
+
+	.turnHand {
+		visibility: hidden;
+	}
+
+	.cards {
+		visibility: hidden;
+		font-size: 30px;
+		position: absolute;
+		display: flex;
+		top: calc(50% - 175px);
+		flex-wrap: nowrap;
+
+		.TouchCard {
+			height: 250px;
+
+			.imageContainer {
+				text-align: center;
+			}
+
+			.line {
+				top: calc(250px - 13px);
+			}
+		}
+	}
+
+	.TouchCardContainer {
+		margin-right: calc(100vw - 350px);
+
+		.TouchCard {
+			background-color: black;
+		}
+	}
+
+	.firstCard {
+		margin-left: calc(50vw - 175px);
+		margin-right: 0vw;
+	}
+
+	.secondCard {
+		margin-right: calc(50vw - 175px);
+	}
+}

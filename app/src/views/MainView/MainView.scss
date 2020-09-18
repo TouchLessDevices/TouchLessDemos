@@ -1,0 +1,45 @@
+.MainView {
+	position: absolute;
+	height: 100%;
+
+	.experimentContainer {
+		position: absolute;
+		display: flex;
+		top: calc(50% - 175px);
+		flex-wrap: nowrap;
+
+		.introText {
+			display: flex;
+			margin-left: 60px;
+			margin-top: 60px;
+			width: 100vw;
+			font-size: 100px;
+			line-height: 1;
+
+			.text {
+				width: 800px;
+				.gray {
+					color: #747474;
+				}
+			}
+
+			.arrow {
+				width: 200px;
+				transform: scaleY(0.5) scaleX(-0.5);
+				margin-top: -75px;
+			}
+		}
+	}
+
+	.firstCard {
+		margin-left: calc(50vw - 235px);
+	}
+
+	.TouchCardContainer {
+		margin-right: calc(100vw - 350px);
+	}
+
+	.lastCard {
+		margin-right: calc(50vw - 175px);
+	}
+}

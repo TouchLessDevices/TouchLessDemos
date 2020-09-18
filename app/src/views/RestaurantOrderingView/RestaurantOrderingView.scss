@@ -1,0 +1,194 @@
+.RestaurantOrderingView {
+	position: fixed;
+	height: 100vh;
+
+	.introScreen {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.description {
+			width: 900px;
+
+			.header {
+				text-align: center;
+				font-size: 60px;
+				line-height: 1.1;
+				margin-bottom: 100px;
+			}
+
+			.textContent {
+				display: flex;
+
+				.scenario {
+					width: 420px;
+					margin-right: 60px;
+				}
+
+				.howTo {
+					width: 420px;
+				}
+
+				.smallHeader {
+					font-size: 16px;
+					margin-bottom: 12px;
+				}
+
+				.body {
+					font-size: 16px;
+					opacity: 0.65;
+					line-height: 1.63;
+				}
+
+				margin-top: 37px;
+			}
+		}
+
+		.TouchCardContainer {
+			.TouchCard {
+				margin-top: 80px;
+				margin-left: 150px;
+				width: 538px;
+				height: 130px;
+
+				.background {
+					width: 538px;
+					height: 130px;
+					border-radius: 5px;
+
+					.line {
+						top: calc(130px - 13px);
+					}
+				}
+
+				.cardContent {
+					.startDemo {
+						margin-top: 30px;
+						margin-left: 40px;
+						font-size: 24px;
+					}
+
+					.imageContainer {
+						position: absolute;
+						top: -20px;
+						right: -10px;
+
+						svg {
+							transform: scale(0.2);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.demoScreen {
+		display: none;
+
+		.checkoutButton {
+			position: absolute;
+			left: calc(50vw - 284px);
+			bottom: 40px;
+
+			.TouchCard {
+				width: 538px;
+				height: 130px;
+
+				.background {
+					width: 538px;
+					height: 130px;
+					border-radius: 5px;
+
+					.line {
+						top: calc(130px - 13px);
+					}
+				}
+
+				.cardContent {
+					.startDemo {
+						margin-top: 30px;
+						margin-left: 40px;
+						font-size: 24px;
+					}
+
+					.imageContainer {
+						position: absolute;
+						top: -20px;
+						right: -10px;
+						background: transparent;
+
+						svg {
+							transform: scale(0.2);
+						}
+					}
+				}
+			}
+		}
+
+		.experimentContainer {
+			position: absolute;
+			display: flex;
+			top: calc(50% - 175px);
+			flex-wrap: nowrap;
+
+			.introText {
+				display: flex;
+				margin-left: 60px;
+				margin-top: 60px;
+				width: 1000px;
+				font-size: 100px;
+				line-height: 1;
+
+				.text {
+					width: 800px;
+
+					.gray {
+						color: #747474;
+					}
+				}
+
+				.arrow {
+					width: 200px;
+					transform: scale(0.5);
+					margin-top: -75px;
+				}
+			}
+		}
+
+		.firstCard {
+			margin-left: calc(20px);
+		}
+
+		.TouchCardContainer {
+			margin-right: 10vw;
+
+			.imageContainer {
+				width: auto;
+				height: 250px;
+				background: #111111;
+				text-align: center;
+
+				img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%) scale(0.4);
+				}
+			}
+		}
+	}
+
+	.endScreen {
+		pointer-events: none;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.headline {
+			font-size: 50px;
+		}
+	}
+}

@@ -1,0 +1,104 @@
+#Preloader {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	.home {
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		.instructionText {
+			font-size: 30px;
+			position: absolute;
+			top: 50vh;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+
+			.line1 {
+				color: #ffffff;
+				font-size: 60px;
+				line-height: 1.17;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+			.line2 {
+				color: #cccccc;
+
+				font-size: 40px;
+				line-height: 1.17;
+				max-width: 500px;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+
+			.line3 {
+				opacity: 0.65;
+				font-size: 18px;
+				line-height: 1.56;
+				max-width: 550px;
+				margin: 26px auto 0 auto;
+			}
+
+			.allowWebcamButton {
+				font-size: 16px;
+				width: 184px;
+				height: 50px;
+				border-radius: 30px;
+				background-color: $COLOR_BLUE;
+				margin: 51px auto 0 auto;
+				line-height: 3.3;
+				cursor: pointer;
+				pointer-events: all;
+			}
+		}
+
+		.bottomText {
+			position: absolute;
+			bottom: 40px;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+			font-size: 14px;
+			opacity: 0.3;
+			line-height: 1.43;
+		}
+	}
+
+	.preloader {
+		visibility: hidden;
+		.loaderImage {
+			border-radius: 8px;
+			font-size: 30px;
+			position: absolute;
+			width: 312px;
+			height: 208px;
+			overflow: hidden;
+			top: 50vh;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.loaderText {
+			position: absolute;
+			top: calc(50vh + 150px);
+			left: calc(50vw - 300px);
+			width: 600px;
+			margin: 0 auto;
+			text-align: center;
+
+			.loading {
+				font-size: 18px;
+				line-height: 1.04;
+				opacity: 0.5;
+				margin-bottom: 20px;
+			}
+
+			.hint {
+				font-size: 24px;
+				line-height: 1.34;
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+.DrawingView {
+	position: fixed;
+	height: 100vh;
+
+	.introScreen {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.description {
+			width: 900px;
+
+			.header {
+				text-align: center;
+				font-size: 60px;
+				line-height: 1.1;
+				margin-bottom: 100px;
+			}
+
+			.textContent {
+				display: flex;
+
+				.scenario {
+					width: 420px;
+					margin-right: 60px;
+				}
+
+				.howTo {
+					width: 420px;
+				}
+
+				.smallHeader {
+					font-size: 16px;
+					margin-bottom: 12px;
+				}
+
+				.body {
+					font-size: 16px;
+					opacity: 0.5;
+					line-height: 1.63;
+				}
+
+				margin-top: 37px;
+			}
+		}
+
+		.TouchCardContainer {
+			.TouchCard {
+				margin-top: 80px;
+				margin-left: 150px;
+				width: 538px;
+				height: 130px;
+
+				.background {
+					width: 538px;
+					height: 130px;
+					border-radius: 5px;
+
+					.line {
+						top: calc(130px - 13px);
+					}
+				}
+
+				.cardContent {
+					.startDemo {
+						margin-top: 30px;
+						margin-left: 40px;
+						font-size: 24px;
+					}
+
+					.imageContainer {
+						position: absolute;
+						top: -20px;
+						right: -10px;
+
+						svg {
+							transform: scale(0.2);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.demoScreen {
+		visibility: hidden;
+		display: none;
+
+		.finterTip {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			background-color: red;
+			opacity: 1;
+			border-radius: 50%;
+			border: 3px solid white;
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+
+		#fingerTips {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 99;
+			//opacity: 0;
+
+			#finger_thumb {
+				display: none;
+			}
+
+			#finger_index {
+				background-color: #3b76e8;
+			}
+		}
+
+		.TouchCardContainer {
+			z-index: 10;
+			position: absolute;
+			top: calc(50vh - 100px);
+			right: 20px;
+
+			.TouchCard {
+				width: 200px;
+				height: 200px;
+
+				.line {
+					top: calc(200px - 13px);
+				}
+
+				img {
+					margin-top: 40px;
+					margin-left: 60px;
+				}
+			}
+		}
+	}
+}

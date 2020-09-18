@@ -1,0 +1,139 @@
+.HowWasYourExperienceView {
+	position: fixed;
+	height: 100vh;
+
+	.introScreen {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.description {
+			width: 900px;
+
+			.header {
+				text-align: center;
+				font-size: 60px;
+				line-height: 1.1;
+				margin-bottom: 100px;
+			}
+
+			.textContent {
+				display: flex;
+
+				.scenario {
+					width: 420px;
+					margin-right: 60px;
+				}
+
+				.howTo {
+					width: 420px;
+				}
+
+				.smallHeader {
+					font-size: 16px;
+					margin-bottom: 12px;
+				}
+
+				.body {
+					font-size: 16px;
+					opacity: 0.5;
+					line-height: 1.63;
+				}
+
+				margin-top: 37px;
+			}
+		}
+
+		.TouchCardContainer {
+			.TouchCard {
+				margin-top: 80px;
+				margin-left: 150px;
+				width: 538px;
+				height: 130px;
+
+				.background {
+					width: 538px;
+					height: 130px;
+					border-radius: 5px;
+
+					.line {
+						top: calc(130px - 13px);
+					}
+				}
+
+				.cardContent {
+					.startDemo {
+						margin-top: 30px;
+						margin-left: 40px;
+						font-size: 24px;
+					}
+
+					.imageContainer {
+						position: absolute;
+						top: -20px;
+						right: -10px;
+
+						svg {
+							transform: scale(0.2);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.demoScreen {
+		display: none;
+
+		.smileyContainer {
+			display: flex;
+			position: absolute;
+			margin-left: 4vw;
+			top: calc(50% - 175px);
+
+			.TouchCardContainer {
+				.TouchCard {
+					width: 20vw;
+					height: 20vw;
+					margin-right: 4vw;
+
+					.background {
+						//	border-radius: 50%;
+
+						.line {
+							//	top: 0%;
+							//	height: 100%;
+							//	border-radius: 50%;
+							top: calc(20vw - 13px);
+						}
+					}
+
+					.imageContainer {
+						margin-left: 0px;
+						margin-top: 0px;
+						margin-bottom: 0px;
+						svg {
+							//margin: 10px;
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.endScreen {
+		pointer-events: none;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.headline {
+			font-size: 50px;
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"build/css/bundle.css": "build/css/bundle.css",
+	"build/js/main.js": "build/js/main.js",
+	"build/js/main.legacy.js": "build/js/main.legacy.js"
+}

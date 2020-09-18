@@ -1,0 +1,74 @@
+.GestureView {
+	position: fixed;
+	height: 100vh;
+
+	.imageContainer {
+	}
+
+	.intro {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 700px;
+		text-align: center;
+
+		.imageContainer {
+			video {
+				border-radius: 10px;
+			}
+		}
+
+		.description {
+			strong {
+				opacity: 1;
+				font-weight: bold;
+				color: white;
+			}
+
+			margin-top: 37px;
+
+			.header {
+				font-size: 50px;
+				line-height: 1.12;
+			}
+
+			.body {
+				margin-top: 15px;
+				font-size: 18px;
+				line-height: 1.5;
+				color: #aaaaaa;
+			}
+		}
+		.startButton {
+			margin-top: 28px;
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, -0%);
+			border: solid 1px #b2b2b2;
+			padding: 15px 44px;
+			width: fit-content;
+			border-radius: 45px;
+		}
+
+		.TouchCard {
+		}
+	}
+
+	#handCircle {
+		/* opacity: 0;*/
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+		border: solid 1px #ffffff;
+		margin-left: -200px;
+		margin-top: -200px;
+		position: absolute;
+	}
+
+	.progress-ring__circle {
+		/*axis compensation*/
+		transform: rotate(-90deg);
+		transform-origin: 50% 50%;
+	}
+}

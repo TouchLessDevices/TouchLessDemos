@@ -1,0 +1,73 @@
+<div data-view="VideoPlayerView" data-path="videoplayer" class="view VideoPlayerView">
+	<div class="introScreen">
+		<div class="description">
+			<div class="header">Video Player</div>
+			<div class="textContent">
+				<div class="scenario">
+					<div class="smallHeader">SCENARIO</div>
+					<div class="body">Standing in the kitchen and watching a recipe on YouTube - or watching a movie in a plane or an instructional video</div>
+				</div>
+				<div class="howTo">
+					<div class="smallHeader">HOW TO</div>
+					<div class="body">Drag to scrub in the video - click the play / pause button to toggle the videos status</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="TouchCardContainer">
+			<div class="TouchCard" data-action="callback" data-path="startDemo">
+				<div class="background">
+					<div class="line"></div>
+				</div>
+				<div class="cardContent">
+					<div class="startDemo">Start Demo</div>
+					<div class="imageContainer">
+						<?xml version="1.0" encoding="UTF-8"?>
+						<svg width="184px" height="159px" viewBox="0 0 184 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Fill 1</title>
+							<g id="Demo:Elevator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="In-Demo-Nav_1-Copy" transform="translate(-243.000000, -66.000000)" fill="#FFFFFF">
+									<polygon
+										id="Fill-1"
+										transform="translate(334.992806, 145.500000) rotate(-90.000000) translate(-334.992806, -145.500000) "
+										points="326.040796 54 326.040796 203.96285 268.421511 145.869087 256 157.788271 334.994097 237 413.985612 157.788271 401.5641 145.869087 343.934486 203.96285 343.934486 54"
+									></polygon>
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="demoScreen">
+		<div class="youtubeContainer">
+			<div class="centerObjects">
+				<div class="youtubePlayer" id="player"></div>
+			</div>
+		</div>
+		<div class="controls">
+			<div class="time">00:24 / 00:50</div>
+			<div class="scrubber">
+				<div class="scrubberElement"></div>
+			</div>
+		</div>
+
+		<div class="TouchCardContainer">
+			<div class="TouchCard" data-action="callback" data-path="play-pause">
+				<div class="background">
+					<div class="line"></div>
+				</div>
+				<div class="cardContent">
+					<div class="pauseButton">
+						<img src="assets/images/pauseButton.png" height="70" />
+					</div>
+					<div class="playButton">
+						<img src="assets/images/playButton.png" height="70" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,133 @@
+<div data-view="ElevatorView" data-path="elevator" class="view ElevatorView">
+	<div class="introScreen">
+		<div class="description">
+			<div class="header">Elevator - Choose a floor</div>
+			<div class="textContent">
+				<div class="scenario">
+					<div class="smallHeader">SCENARIO</div>
+					<div class="body">You have to input a number - for example a floor (or on an ATM machine)</div>
+				</div>
+				<div class="howTo">
+					<div class="smallHeader">HOW TO</div>
+					<div class="body">Put your hand over the floor you want to go to. And spread your fingers over the item to confirm.</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="TouchCardContainer">
+			<div class="TouchCard" data-action="callback" data-path="startDemo">
+				<div class="background">
+					<div class="line"></div>
+				</div>
+				<div class="cardContent">
+					<div class="startDemo">Start Demo</div>
+					<div class="imageContainer">
+						<?xml version="1.0" encoding="UTF-8"?>
+						<svg width="184px" height="159px" viewBox="0 0 184 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Fill 1</title>
+							<g id="Demo:Elevator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="In-Demo-Nav_1-Copy" transform="translate(-243.000000, -66.000000)" fill="#FFFFFF">
+									<polygon
+										id="Fill-1"
+										transform="translate(334.992806, 145.500000) rotate(-90.000000) translate(-334.992806, -145.500000) "
+										points="326.040796 54 326.040796 203.96285 268.421511 145.869087 256 157.788271 334.994097 237 413.985612 157.788271 401.5641 145.869087 343.934486 203.96285 343.934486 54"
+									></polygon>
+								</g>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="demoScreen">
+		<div class="currentFloor">
+			<div class="arrow">
+				<?xml version="1.0" encoding="UTF-8"?>
+				<svg width="158px" height="183px" viewBox="0 0 158 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<title>Fill 1</title>
+					<g id="Demo:Elevator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="In-Demo-Nav_1-Copy" transform="translate(-150.000000, -310.000000)" fill="#FFFFFF">
+							<polygon
+								id="Fill-1"
+								transform="translate(228.992806, 401.500000) rotate(-180.000000) translate(-228.992806, -401.500000) "
+								points="220.040796 310 220.040796 459.96285 162.421511 401.869087 150 413.788271 228.994097 493 307.985612 413.788271 295.5641 401.869087 237.934486 459.96285 237.934486 310"
+							></polygon>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="floorContainer">
+				<div class="floors">0<br />1<br />2<br />3<br />4<br />5<br />6</div>
+			</div>
+		</div>
+		<div class="numberContainer" data-drag="x">
+			<div class="firstCard TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor0">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						0
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor3">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						3
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor1">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						1
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor4">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						4
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor2">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						2
+					</div>
+				</div>
+			</div>
+
+			<div class="TouchCardContainer">
+				<div class="TouchCard" data-action="callback" data-path="floor5">
+					<div class="background">
+						<div class="line"></div>
+					</div>
+					<div class="cardContent">
+						5
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
