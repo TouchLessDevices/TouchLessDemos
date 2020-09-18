@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="117px" viewBox="0 0 115 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <defs>
+        <polygon id="path-1" points="0 0.7876 114.2128 0.7876 114.2128 114.9996 0 114.9996"></polygon>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <g id="Group-3" transform="translate(0.000000, 0.213000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M114.2128,57.8936 C114.2128,89.4326 88.6458,114.9996 57.1068,114.9996 C25.5668,114.9996 -0.0002,89.4326 -0.0002,57.8936 C-0.0002,26.3546 25.5668,0.7876 57.1068,0.7876 C88.6458,0.7876 114.2128,26.3546 114.2128,57.8936" id="Fill-1" fill="#639EFF" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M77.9218,63.4909 C74.9898,72.5569 66.6588,78.6359 57.1068,78.6359 C47.5548,78.6359 39.2238,72.5569 36.2918,63.4909 L29.9968,63.4909 L30.4848,65.0579 C34.1378,76.7669 44.8368,84.6359 57.1068,84.6359 C69.3778,84.6359 80.0758,76.7669 83.7288,65.0579 L84.2168,63.4909 L77.9218,63.4909 Z" id="Fill-4" fill="#133069"></path>
+            <polygon id="Fill-6" fill="#133069" points="41.8895 52.3239 35.8855 52.3239 35.2295 36.3429 41.9385 36.4809"></polygon>
+            <polygon id="Fill-8" fill="#133069" points="78.9344 52.6604 72.9304 52.6604 72.2744 36.6794 78.9834 36.8174"></polygon>
+        </g>
+    </g>
+</svg>

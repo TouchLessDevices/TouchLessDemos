@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="208px" viewBox="0 0 312 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Screen Shot 2020-06-02 at 7.02.35 PM</title>
+    <defs>
+        <polygon id="path-1" points="0 0 312 0 312 208 0 208"></polygon>
+    </defs>
+    <g id="Demo:Burger-Shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Demo_Burger-Shop_1" transform="translate(-565.000000, -280.000000)">
+            <g id="Group-6-Copy-15" transform="translate(544.000000, 229.000000)">
+                <g id="Group-8" transform="translate(20.000000, 1.000000)">
+                    <g id="Screen-Shot-2020-06-02-at-7.02.35-PM" transform="translate(1.000000, 50.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#111111" xlink:href="#path-1"></use>
+                        <g id="Group-22" mask="url(#mask-2)">
+                            <g transform="translate(111.000000, 41.000000)">
+                                <g id="Group-38" stroke-width="1" fill="none" transform="translate(0.514970, 0.000000)">
+                                    <polygon id="Fill-24" fill="#F8D429" points="46.8720923 76.9704248 28.9480666 76.5068862 30.9185194 0.305778581 48.8425451 0.769317203"></polygon>
+                                    <polygon id="Fill-26" fill="#FAE952" points="56.4136021 78.5544651 38.8119368 75.1403626 52.3082469 5.58112924 69.9099122 8.99523176"></polygon>
+                                    <polygon id="Fill-28" fill="#FAE952" points="76.5908489 80.6789626 59.2010392 76.3139195 70.2747418 32.2077946 87.6648785 36.5728377"></polygon>
+                                    <polygon id="Fill-30" fill="#FAE952" points="37.7353967 78.5857491 19.9669933 80.9877813 10.4723991 10.7701793 28.2404756 8.36814703"></polygon>
+                                    <polygon id="Fill-32" fill="#F8D429" points="29.4543621 81.1297196 12.1672108 85.8870381 0.0986370671 42.04243 17.3857884 37.2851116"></polygon>
+                                    <polygon id="Fill-34" fill="#DC002D" points="83.2528232 125.969726 3.78279854 125.969726 0.216236514 60.9608861 86.8193852 60.9608861"></polygon>
+                                </g>
+                                <polygon id="Fill-39" fill="#FFFFFF" points="64.5149701 95 58.7495948 100.894813 58.6573147 109.141968 50.4102272 109.234577 44.5151343 115 38.6200414 109.234577 30.3729539 109.141968 30.2806737 100.894813 24.5149701 95 30.2806737 89.1048587 30.3729539 80.8577035 38.6200414 80.7650942 44.5151343 75 50.4102272 80.7650942 58.6573147 80.8580319 58.7495948 89.1048587"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

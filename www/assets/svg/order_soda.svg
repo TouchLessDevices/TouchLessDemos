@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="208px" viewBox="0 0 312 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Screen Shot 2020-06-02 at 7.02.35 PM</title>
+    <defs>
+        <polygon id="path-1" points="0 0 312 0 312 208 0 208"></polygon>
+    </defs>
+    <g id="Demo:Burger-Shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Demo_Burger-Shop_1" transform="translate(-1047.000000, -280.000000)">
+            <g id="Group-6-Copy-14" transform="translate(1026.000000, 229.000000)">
+                <g id="Group-8" transform="translate(20.000000, 1.000000)">
+                    <g id="Screen-Shot-2020-06-02-at-7.02.35-PM" transform="translate(1.000000, 50.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#111111" xlink:href="#path-1"></use>
+                        <g id="Group-48" mask="url(#mask-2)">
+                            <g transform="translate(118.000000, 40.000000)" id="Group-47">
+                                <g transform="translate(0.053691, 0.000000)">
+                                    <polygon id="Fill-41" fill="#F1BBC6" points="0.202852486 109.250257 74.6132723 109.250257 74.6132723 16.8363051 0.202852486 16.8363051"></polygon>
+                                    <path d="M64.5232478,7.31126062 L10.2929415,7.31126062 C8.30472917,7.31126062 6.69319679,5.6958107 6.69319679,3.70276511 C6.69319679,1.70971953 8.30472917,0.0942696014 10.2929415,0.0942696014 L64.5232478,0.0942696014 C66.5114601,0.0942696014 68.1229925,1.70971953 68.1229925,3.70276511 C68.1229925,5.6958107 66.5114601,7.31126062 64.5232478,7.31126062" id="Fill-43" fill="#3767ED"></path>
+                                    <polygon id="Fill-44" fill="#3767ED" points="63.7526018 6.64574827 11.063523 6.64574827 0.202691236 16.8363051 74.6134336 16.8363051"></polygon>
+                                    <path d="M10.292877,118.305634 L64.5231833,118.305634 C66.5113956,118.305634 68.122928,119.921407 68.122928,121.91413 C68.122928,123.907175 66.5113956,125.522625 64.5231833,125.522625 L10.292877,125.522625 C8.30466467,125.522625 6.69313229,123.907175 6.69313229,121.91413 C6.69313229,119.921407 8.30466467,118.305634 10.292877,118.305634" id="Fill-45" fill="#3767ED"></path>
+                                    <polygon id="Fill-46" fill="#3767ED" points="11.063523 118.971147 63.7526018 118.971147 74.6134336 108.780913 0.202691236 108.780913"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

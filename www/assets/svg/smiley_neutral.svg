@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="117px" viewBox="0 0 115 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <defs>
+        <polygon id="path-1" points="0 0.7873 114.213 0.7873 114.213 115 0 115"></polygon>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <g id="Group-3" transform="translate(0.000000, 0.213000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M114.213,57.8933 C114.213,89.4333 88.646,115.0003 57.107,115.0003 C25.567,115.0003 0,89.4333 0,57.8933 C0,26.3543 25.567,0.7873 57.107,0.7873 C88.646,0.7873 114.213,26.3543 114.213,57.8933" id="Fill-1" fill="#3878F0" mask="url(#mask-2)"></path>
+            </g>
+            <polygon id="Fill-4" fill="#FFFFFF" points="40.3219 51.348 34.3179 51.348 33.6619 35.367 40.3709 35.505"></polygon>
+            <polygon id="Fill-6" fill="#FFFFFF" points="77.3668 51.6844 71.3628 51.6844 70.7068 35.7034 77.4158 35.8414"></polygon>
+            <polygon id="Fill-8" fill="#FFFFFF" points="82.0035 77.7464 32.0325 78.4444 32.6425 71.5784 82.1805 70.5654"></polygon>
+        </g>
+    </g>
+</svg>
